@@ -166,11 +166,7 @@ $(function(){
     },function(){
         $(this).css('color','#fff');
     });
-    $('#banner>video').css({'position':'absolute','top':'0','left':'0','width':'100%','z-index':'1'})[0].onended=function(){
-        $('#banner>video').css('z-index','-20');
-        //clearInterval(time1);
-        //time1=setInterval(mystyle,10);
-    };
+    $('#banner>video').css({'position':'absolute','top':'0','left':'0','width':'100%','z-index':'1'});
     $('#banner>section').css('z-index','20');
     function mystyle(){
         if(myChang2){
