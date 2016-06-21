@@ -144,7 +144,7 @@ $(function(){
                 $('#banner>section:nth-child(5)').css('transform','rotate3d('+myRon1+','+myRon2+','+myRon3+','+myChangNum2+'deg)');
                 myChangNum2++;
             }
-        },10);
+        },1);
     },function(){
         $('#banner>section:nth-child(5) div').css('border-color','#00ffff');
         clearInterval(time3);
